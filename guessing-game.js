@@ -1,22 +1,7 @@
-// let array = []
-// let num = Symbol()
-// let str = ""
-// if(num) return console.log("true")
-// else return console.log("false")
-// let firstName = "Kasey"
-// let lastName= "McGee"
-// let string = (firstName, lastName) => { 
-//     console.log(`Hi my name is ${firstName} ${lastName}`)
-// }
-// string()
-// ((firstName, lastName) => {
-//     console.log(`Hi my name is ${firstName} ${lastName}`)
-// })()
-// console.log(`Hi my name is ${firstName} ${lastName}`)
+
 
 const readline = require("readline");
-const { truncate } = require("fs");
-const { Console } = require("console");
+
 const interface = readline.createInterface({
     input: process.stdin,
     output: process.stdout
